@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CloudWorkload",
+  "type": "object",
+  "required": ["workload_id", "environment", "criticality", "status"],
+  "properties": {
+    "workload_id": {"type": "string"},
+    "name": {"type": ["string", "null"]},
+    "environment": {"type": "string"},
+    "criticality": {"type": "string"},
+    "data_classification": {"type": ["string", "null"]},
+    "business_owner": {"type": ["string", "null"]},
+    "technical_owner": {"type": ["string", "null"]},
+    "cost_owner": {"type": ["string", "null"]},
+    "rto_minutes": {"type": ["integer", "null"], "minimum": 0},
+    "rpo_minutes": {"type": ["integer", "null"], "minimum": 0},
+    "status": {"type": "string"}
+  }
+}

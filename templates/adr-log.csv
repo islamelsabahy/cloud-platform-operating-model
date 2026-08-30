@@ -1,0 +1,3 @@
+adr_id,date,topic,decision,owner,status
+DEMO-ADR-001,2026-08-30,Network Segmentation,Adopt standard segmented network pattern,Demo Platform Owner,Accepted
+DEMO-ADR-002,2026-08-30,Infrastructure Provisioning,Use reviewed infrastructure-as-code modules,Demo Architecture Owner,Accepted

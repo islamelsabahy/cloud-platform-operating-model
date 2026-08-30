@@ -1,0 +1,3 @@
+workload_id,name,environment,criticality,data_classification,business_owner,technical_owner,cost_owner,status
+DEMO-WL-001,Demo Customer Portal,Production,High,Confidential,Demo Business Owner,Demo Platform Owner,Demo Cost Owner,Active
+DEMO-WL-002,Demo Analytics Workspace,Production,Medium,Internal,Demo Analytics Owner,Demo Data Platform Owner,Demo Cost Owner,Active

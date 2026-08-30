@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CloudException",
+  "type": "object",
+  "required": [
+    "exception_id",
+    "workload_id",
+    "standard",
+    "risk",
+    "expiry_date",
+    "status"
+  ],
+  "properties": {
+    "exception_id": {"type": "string"},
+    "workload_id": {"type": "string"},
+    "standard": {"type": "string"},
+    "reason": {"type": ["string", "null"]},
+    "risk": {"type": "string"},
+    "compensating_control": {"type": ["string", "null"]},
+    "expiry_date": {"type": "string", "format": "date"},
+    "status": {"type": "string"}
+  }
+}

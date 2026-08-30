@@ -1,0 +1,2 @@
+exception_id,workload_id,standard,reason,risk,compensating_control,expiry_date,status
+DEMO-CEX-001,DEMO-WL-001,Standard Network Exposure,Temporary partner integration requirement,Medium,Restricted source and enhanced monitoring,2026-12-31,Approved

@@ -1,0 +1,5 @@
+period,metric,actual,target,status
+2026-08,Policy Compliance %,94,98,Amber
+2026-08,Restore Test Pass %,100,100,Green
+2026-08,Cost Allocation Coverage %,91,98,Amber
+2026-08,Platform Availability %,99.95,99.9,Green
