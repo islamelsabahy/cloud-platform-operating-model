@@ -41,4 +41,4 @@ Strategy → Landing Zone → Guardrails → Platform Services → Workload Inta
 10. Public examples use fictional data only.
 
 ## Author
-Eng. Islam El Sherbiny
+Eng. Islam El-Sherbiny
